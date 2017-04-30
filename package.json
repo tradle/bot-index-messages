@@ -1,0 +1,32 @@
+{
+  "name": "@tradle/bot-index-messages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tradle/bot-index-messages",
+  "author": "Mark Vayngrib <mark@tradle.io>",
+  "license": "MIT",
+  "dependencies": {
+    "any-promise": "^1.3.0",
+    "changes-feed": "mvayngrib/changes-feed",
+    "co": "^4.6.0",
+    "sublevel-prefixer": "^1.0.0",
+    "subleveldown": "^2.1.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tradle/bots": "tradle/bots#reorg",
+    "eslint": "^3.19.0",
+    "memdb": "^1.3.1",
+    "stream-collector": "^1.0.1",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "lint": "eslint --quiet --ignore-path .gitignore .",
+    "test": "BLUEBIRD_DEBUG=1 node test"
+  },
+  "keywords": [
+    "tradle",
+    "bot",
+    "index"
+  ]
+}
